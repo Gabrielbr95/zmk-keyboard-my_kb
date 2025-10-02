@@ -1,17 +1,19 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-keymap {
-    compatible = "zmk,keymap";
+ / {
+    keymap {
+        compatible = "zmk,keymap";
 
-    default_layer {
-        bindings = <
-            &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
-            &kp X &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6 &kp 7 &kp 8 &kp 9 &kp 0 &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
-            &kp X &kp q &kp w &kp e &kp r &kp t &kp y &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
-            &kp X &kp a &kp s &kp d &kp f &kp g &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
-            &kp X &kp X &kp z &kp x &kp c &kp v &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
-            &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
-        >;
+        default_layer {
+            bindings = <
+                &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
+                &kp X &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6 &kp 7 &kp 8 &kp 9 &kp 0 &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
+                &kp X &kp q &kp w &kp e &kp r &kp t &kp y &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
+                &kp X &kp a &kp s &kp d &kp f &kp g &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
+                &kp X &kp X &kp z &kp x &kp c &kp v &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
+                &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X &kp X 
+            >;
+        };
     };
 };
