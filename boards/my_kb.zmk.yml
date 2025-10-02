@@ -5,6 +5,7 @@ type: shield
 url: https://your-repo-url
 requires:
   - nice_nano_v2
+  - arduino_nano_33_ble
 exposes:
   - keys
 features:
