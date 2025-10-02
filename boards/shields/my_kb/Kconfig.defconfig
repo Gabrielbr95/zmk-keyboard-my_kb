@@ -1,6 +1,6 @@
 if SHIELD_MY_KB_MAIN
     config ZMK_KEYBOARD_NAME
-        default "My_kb_main"
+        default "my_kb_main"
     config ZMK_SPLIT_ROLE_CENTRAL
         default y
 endif
