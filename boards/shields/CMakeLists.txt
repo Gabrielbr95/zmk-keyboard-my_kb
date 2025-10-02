@@ -1,0 +1,2 @@
+zephyr_include_shield(my_kb_main)
+zephyr_include_shield(my_kb_npad)
