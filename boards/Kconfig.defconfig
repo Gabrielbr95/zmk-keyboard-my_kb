@@ -1,0 +1,11 @@
+if SHIELD_MY_KB_MAIN
+    config ZMK_KEYBOARD_NAME
+        default "My_kb_main"
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+endif
+
+if SHIELD_MY_KB_MAIN || SHIELD_MY_KB_NPAD
+    config ZMK_SPLIT
+        default y
+endif
