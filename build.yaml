@@ -22,8 +22,9 @@
 #board: [ "arduino_nano_33_ble", "nice_nano_v2" ]
 #shield: [ "my_kb_main", "my_kb_npad" ]
 #- board: nologo_nano33_ble
+#  - board: arduino_nano_33_ble
 include:
-  - board: arduino_nano_33_ble
+  - board: nologo_nano33_ble
     shield: my_kb_main
   - board: nice_nano_v2
     shield: my_kb_npad
