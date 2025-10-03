@@ -1,4 +1,4 @@
-if SHIELD_MY_KB_MAIN
+if SHIELD_MY_KB_NPAD
     config ZMK_KEYBOARD_NAME
         default "my_kb_main"
     config ZMK_SPLIT_ROLE_CENTRAL
