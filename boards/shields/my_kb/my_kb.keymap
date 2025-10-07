@@ -17,8 +17,8 @@
                 &kp N1	 &kp N2	 &kp N3	 &kp N4	             
                 &kp N1	 &kp N2	 &kp N3	 &kp N4	             
                 &kp N1	 &kp N2	 &kp N3	 &kp N4	             
-                &kp N1	 &kp N2	 &kp N3	 	             
-                &kp N1	    	 &kp N3	 &kp N4	    
+                &kp N1	 &kp N2	 &kp N3	              
+                &kp N1	    	 &kp N3	 &kp N4		    
             >;
         };
     };
