@@ -7,7 +7,7 @@
 
         default_layer {
             bindings = <
-                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
+                &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &studio_unlock &kp A 
                 &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
                 &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
                 &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A 
@@ -21,8 +21,5 @@
                 &kp N1 &kp N2 &kp N3 &kp N4             
             >;
         };
-        studio_unlock: studio_unlock {};
     };
-
-    //&studio_unlock
 };
