@@ -5,7 +5,7 @@
         compatible = "zmk,physical-layout";
         display-name = "75% PT-BR";
         
-        kscan = <&kscan0>;
+        //kscan = <&kscan0>;
         transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry

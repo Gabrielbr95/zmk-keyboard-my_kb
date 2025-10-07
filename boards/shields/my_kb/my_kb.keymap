@@ -22,4 +22,6 @@
             >;
         };
     };
+    
+    &studio_unlock
 };

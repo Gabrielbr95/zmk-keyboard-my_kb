@@ -2,10 +2,14 @@ file_format: "1"
 id: my_kb
 name: My Keyboard
 type: shield
-url: TBY
-requires: [nice_nano_v2]
+url: https://github.com/Gabrielbr95/zmk-keyboard-my_kb
+requires: 
+  - nice_nano_v2
+exposes:
+  - keys
 features:
   - keys
 siblings:
   - my_kb_main
   - my_kb_npad
+studio: true
