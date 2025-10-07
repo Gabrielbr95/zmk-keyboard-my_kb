@@ -21,7 +21,8 @@
                 &kp N1 &kp N2 &kp N3 &kp N4             
             >;
         };
+        studio_unlock: studio_unlock {};
     };
 
-    &studio_unlock
+    //&studio_unlock
 };
