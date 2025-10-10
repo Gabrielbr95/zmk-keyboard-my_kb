@@ -32,3 +32,5 @@ include:
   - board: nice_nano_v2
     shield: my_kb_npad
     artifact-name: my_kb_npad
+  - board: nice_nano_v2
+    shield: settings_reset
