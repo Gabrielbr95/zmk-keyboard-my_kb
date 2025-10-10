@@ -6,19 +6,62 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name: "Base";
+
             bindings = <
-                &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &studio_unlock	 &kp A	 
-                &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	    	 &kp A	 &kp A	 
-                &kp A	    	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	     	 &kp A	 
-                &kp A	    	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 
-                &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 
-                &kp A	    	 &kp A	 &kp A	 	         	 &kp A	 	             	 	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 &kp A	 
-                &kp N1	 &kp N2	 &kp N3	 &studio_unlock	             
-                &kp N1	 &kp N2	 &kp N3	 &kp N4	             
-                &kp N1	 &kp N2	 &kp N3	 &kp N4	             
-                &kp N1	 &kp N2	 &kp N3	 &kp N4	             
-                &kp N1	 &kp N2	 &kp N3	              
-                &kp N1	    	 &kp N3	 &kp N4		    
+                &kp ESC		&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&kp F6		&kp F7		&kp F8		&kp F9		&kp F10		&kp F11		&kp F12		&bootloader	    &studio_unlock	&kp DEL	
+                &kp GRAVE	&kp N1		&kp N2		&kp N3		&kp N4		&kp N5		&kp N6		&kp N7		&kp N8		&kp N9		&kp N10		&kp MINUS	&kp EQUAL	                &kp BSPC		&kp HOME 
+                &kp TAB		            &kp Q		&kp W		&kp E		&kp R		&kp T		&kp Y		&kp U		&kp I		&kp O		&kp P		&kp LBKT	&kp RBRC	                    &kp END	
+                &kp CAPS	            &kp A		&kp S		&kp D		&kp F		&kp G		&kp H		&kp J		&kp K		&kp L		&kp SEMI	&kp APOS	&kp NUHS	    &kp ENTER		&kp PSCRN 
+                &kp LSHIFT	&kp NUBS	&kp Z		&kp X		&kp C		&kp V		&kp B		&kp N		&kp M		&kp COMMA	&kp DOT		&kp SLASH	&kp INT1	&kp RSHIFT		&kp UP		    &kp INS 
+                &kp LCTRL	            &kp LWIN	&kp LALT						    &kp SPACE								        &kp RCTRL	&kp RWIN	&kp RALT	&kp LEFT	    &kp DOWN		&kp RIGHT 
+                                                                            
+                &kp K_CALC		&kp CLEAR		&bootloader		&studio_unlock 
+                &kp LNLCK		&kp KP_DIVIDE	&kp KP_MULTIPLY	&kp KP_MINUS 
+                &kp KP_N7		&kp KP_N8		&kp KP_N9		&kp KP_PLUS 
+                &kp KP_N4		&kp KP_N5		&kp KP_N6		&kp KP_COMMA 
+                &kp KP_N1		&kp KP_N2		&kp KP_N3 
+                &kp KP_N0				        &kp KP_DOT		&kp KP_ENTER 
+            >;
+        };
+
+        alt1 {
+            display-name: "Alt1";
+
+            bindings = <
+                &kp ESC		&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&kp F6		&kp F7		&kp F8		&kp F9		&kp F10		&kp F11		&kp F12		&bootloader	    &studio_unlock	&kp DEL	
+                &kp GRAVE	&kp N1		&kp N2		&kp N3		&kp N4		&kp N5		&kp N6		&kp N7		&kp N8		&kp N9		&kp N10		&kp MINUS	&kp EQUAL	                &kp BSPC		&kp HOME 
+                &kp TAB		            &kp Q		&kp W		&kp E		&kp R		&kp T		&kp Y		&kp U		&kp I		&kp O		&kp P		&kp LBKT	&kp RBRC	                    &kp END	
+                &kp CAPS	            &kp A		&kp S		&kp D		&kp F		&kp G		&kp H		&kp J		&kp K		&kp L		&kp SEMI	&kp APOS	&kp NUHS	    &kp ENTER		&kp PSCRN 
+                &kp LSHIFT	&kp NUBS	&kp Z		&kp X		&kp C		&kp V		&kp B		&kp N		&kp M		&kp COMMA	&kp DOT		&kp SLASH	&kp INT1	&kp RSHIFT		&kp UP		    &kp INS 
+                &kp LCTRL	            &kp LWIN	&kp LALT						    &kp SPACE								        &kp RCTRL	&kp RWIN	&kp RALT	&kp LEFT	    &kp DOWN		&kp RIGHT 
+                                                                            
+                &kp K_CALC		&kp CLEAR		&bootloader		&studio_unlock 
+                &kp LNLCK		&kp KP_DIVIDE	&kp KP_MULTIPLY	&kp KP_MINUS 
+                &kp KP_N7		&kp KP_N8		&kp KP_N9		&kp KP_PLUS 
+                &kp KP_N4		&kp KP_N5		&kp KP_N6		&kp KP_COMMA 
+                &kp KP_N1		&kp KP_N2		&kp KP_N3 
+                &kp KP_N0				        &kp KP_DOT		&kp KP_ENTER 
+            >;
+        };
+
+        alt2 {
+            display-name: "alt2";
+
+            bindings = <
+                &kp ESC		&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&kp F6		&kp F7		&kp F8		&kp F9		&kp F10		&kp F11		&kp F12		&bootloader	    &studio_unlock	&kp DEL	
+                &kp GRAVE	&kp N1		&kp N2		&kp N3		&kp N4		&kp N5		&kp N6		&kp N7		&kp N8		&kp N9		&kp N10		&kp MINUS	&kp EQUAL	                &kp BSPC		&kp HOME 
+                &kp TAB		            &kp Q		&kp W		&kp E		&kp R		&kp T		&kp Y		&kp U		&kp I		&kp O		&kp P		&kp LBKT	&kp RBRC	                    &kp END	
+                &kp CAPS	            &kp A		&kp S		&kp D		&kp F		&kp G		&kp H		&kp J		&kp K		&kp L		&kp SEMI	&kp APOS	&kp NUHS	    &kp ENTER		&kp PSCRN 
+                &kp LSHIFT	&kp NUBS	&kp Z		&kp X		&kp C		&kp V		&kp B		&kp N		&kp M		&kp COMMA	&kp DOT		&kp SLASH	&kp INT1	&kp RSHIFT		&kp UP		    &kp INS 
+                &kp LCTRL	            &kp LWIN	&kp LALT						    &kp SPACE								        &kp RCTRL	&kp RWIN	&kp RALT	&kp LEFT	    &kp DOWN		&kp RIGHT 
+                                                                            
+                &kp K_CALC		&kp CLEAR		&bootloader		&studio_unlock 
+                &kp LNLCK		&kp KP_DIVIDE	&kp KP_MULTIPLY	&kp KP_MINUS 
+                &kp KP_N7		&kp KP_N8		&kp KP_N9		&kp KP_PLUS 
+                &kp KP_N4		&kp KP_N5		&kp KP_N6		&kp KP_COMMA 
+                &kp KP_N1		&kp KP_N2		&kp KP_N3 
+                &kp KP_N0				        &kp KP_DOT		&kp KP_ENTER 
             >;
         };
     };
