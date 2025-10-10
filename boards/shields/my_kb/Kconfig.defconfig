@@ -1,7 +1,12 @@
 if SHIELD_MY_KB_MAIN
     config ZMK_KEYBOARD_NAME
-        default "my_kb_main"
+        default "My_Keyboard"
     config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+endif
+
+if SHIELD_MY_KB_NPAD
+    CONFIG_ZMK_SPLIT_ROLE_PERIPHERAL
         default y
 endif
 
