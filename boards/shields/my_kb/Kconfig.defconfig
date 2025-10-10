@@ -5,11 +5,6 @@ if SHIELD_MY_KB_MAIN
         default y
 endif
 
-if SHIELD_MY_KB_NPAD
-    CONFIG_ZMK_SPLIT_ROLE_PERIPHERAL
-        default y
-endif
-
 if SHIELD_MY_KB_MAIN || SHIELD_MY_KB_NPAD
     config ZMK_SPLIT
         default y
