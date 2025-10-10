@@ -6,7 +6,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name: "Base";
+            display-name = "Base";
 
             bindings = <
                 &kp ESC		&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&kp F6		&kp F7		&kp F8		&kp F9		&kp F10		&kp F11		&kp F12		&bootloader	    &studio_unlock	&kp DEL	
@@ -26,7 +26,7 @@
         };
 
         alt1 {
-            display-name: "Alt1";
+            display-name= "Alt1";
 
             bindings = <
                 &kp ESC		&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&kp F6		&kp F7		&kp F8		&kp F9		&kp F10		&kp F11		&kp F12		&bootloader	    &studio_unlock	&kp DEL	
@@ -46,7 +46,7 @@
         };
 
         alt2 {
-            display-name: "alt2";
+            display-name= "alt2";
 
             bindings = <
                 &kp ESC		&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&kp F6		&kp F7		&kp F8		&kp F9		&kp F10		&kp F11		&kp F12		&bootloader	    &studio_unlock	&kp DEL	
