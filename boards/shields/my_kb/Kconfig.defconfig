@@ -5,7 +5,7 @@
 #        default y
 #endif
 
-if SHIELD_MY_KB_MAIN || SHIELD_MY_KB_NPAD
+if SHIELD_MY_KB_MAIN || SHIELD_MY_KB_NPAD || SHIELD_MY_KB_DONGLE
     config ZMK_SPLIT
         default y
 endif
@@ -15,9 +15,6 @@ if SHIELD_MY_KB_DONGLE
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
     default "My_Keyboard"
-
-config ZMK_SPLIT
-    default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

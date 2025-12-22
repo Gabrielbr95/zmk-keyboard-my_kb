@@ -1,10 +1,15 @@
-#include "my_kb.dtsi"
-
+#include <dt-bindings/zmk/matrix_transform.h>
+#include "my_kb-layouts.dtsi"
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
+        zmk,battery = &vbatt;
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
     };
 
     mock_kscan: mock_kscan_0 {
@@ -13,6 +18,4 @@
         rows = <0>;
         events = <0>;
     };
-
 };
-
