@@ -37,7 +37,7 @@ include:
   - board: xiao_ble
     shield: my_kb_dongle
     artifact-name: my_kb_dongle
-    snippet: 
+    snippets: 
       - studio-rpc-usb-uart
       - zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_STUDIO=y
