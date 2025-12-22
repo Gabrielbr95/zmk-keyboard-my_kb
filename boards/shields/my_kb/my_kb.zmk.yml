@@ -5,6 +5,7 @@ type: shield
 url: https://github.com/Gabrielbr95/zmk-keyboard-my_kb
 requires: 
   - nice_nano_v2
+  - xiao_ble
 exposes:
   - keys
 features:
@@ -12,4 +13,5 @@ features:
 siblings:
   - my_kb_main
   - my_kb_npad
+  - my_kb_dongle
 studio: true

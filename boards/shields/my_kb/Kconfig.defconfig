@@ -1,9 +1,9 @@
-if SHIELD_MY_KB_MAIN
+#if SHIELD_MY_KB_MAIN
 #    config ZMK_KEYBOARD_NAME
 #        default "My_Keyboard"
 #    config ZMK_SPLIT_ROLE_CENTRAL
 #        default y
-endif
+#endif
 
 if SHIELD_MY_KB_MAIN || SHIELD_MY_KB_NPAD
     config ZMK_SPLIT
@@ -16,10 +16,10 @@ if SHIELD_MY_KB_DONGLE
 config ZMK_KEYBOARD_NAME
     default "My_Keyboard"
 
-config ZMK_SPLIT_ROLE_CENTRAL
+config ZMK_SPLIT
     default y
 
-config ZMK_SPLIT
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 # Set this to the number of peripherals your dongle will have.
@@ -29,10 +29,10 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 
 # Set this to ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
 config BT_MAX_CONN
-    default 6
+    default 3
 
 # Set this to the same number as BT_MAX_CONN
 config BT_MAX_PAIRED
-    default 6
+    default 3
 
 endif
