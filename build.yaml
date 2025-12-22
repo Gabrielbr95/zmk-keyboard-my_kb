@@ -32,10 +32,12 @@ include:
   - board: nice_nano@2.0.0
     shield: my_kb_npad
     artifact-name: my_kb_npad
-  - board: nice_nano@2.0.0
+  - board: seeeduino_xiao_ble
     shield: my_kb_dongle
     artifact-name: my_kb_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano@2.0.0
+    shield: settings_reset
+  - board: seeeduino_xiao_ble
     shield: settings_reset
