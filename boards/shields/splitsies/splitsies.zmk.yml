@@ -1,0 +1,12 @@
+file_format: "1"
+id: splitsies
+name: splitsies
+type: shield
+url: https://github.com/spikeydee/splitsies
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - splitsies_dongle
+  - splitsies_left
+  - splitsies_right
