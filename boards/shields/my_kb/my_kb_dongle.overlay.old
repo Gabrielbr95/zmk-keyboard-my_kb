@@ -1,24 +1,19 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "my_kb-layouts.dtsi"
 
-/ {
+/{
     chosen {
-        zmk,kscan = &kscan0;
+        zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
-        zmk,battery = &vbatt;
     };
-
-    vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
+    
+    mock_kscan: mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
     };
-
-    kscan0: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row";
-        //diode-direction = "row2col";
-        wakeup-source;
-    };
-
+    
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <18>;  // total # columns combining left + right
@@ -36,7 +31,6 @@
             RC(15,0)	RC(15,1)	RC(15,2)	RC(15,3)	
             RC(16,0)	RC(16,1)	RC(16,2)	
             RC(17,0)	            RC(17,2)	RC(17,3)
-            RC(18,0)
     >;
     };
 };
