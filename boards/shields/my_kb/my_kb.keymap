@@ -22,7 +22,7 @@
                 &kp KP_N4		&kp KP_N5		&kp KP_N6		&kp KP_COMMA 
                 &kp KP_N1		&kp KP_N2		&kp KP_N3 
                 &kp KP_N0				        &kp KP_DOT		&kp KP_ENTER 
-                &kp KP A
+                &kp A
             >;
         };
 
@@ -43,7 +43,7 @@
                 &kp KP_N4		&kp KP_N5		&kp KP_N6		&kp KP_COMMA 
                 &kp KP_N1		&kp KP_N2		&kp KP_N3 
                 &kp KP_N0				        &kp KP_DOT		&kp KP_ENTER 
-                &kp KP A
+                &kp A
             >;
         };
 
@@ -64,7 +64,7 @@
                 &kp KP_N4		&kp KP_N5		&kp KP_N6		&kp KP_COMMA 
                 &kp KP_N1		&kp KP_N2		&kp KP_N3 
                 &kp KP_N0				        &kp KP_DOT		&kp KP_ENTER 
-                &kp KP A
+                &kp A
             >;
         };
     };
