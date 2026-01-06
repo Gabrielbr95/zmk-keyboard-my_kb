@@ -1,8 +1,8 @@
 include:
   - board: nice_nano@2.0.0
     shield: my_kb_main
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+#    snippet: studio-rpc-usb-uart
+#    cmake-args: -DCONFIG_ZMK_STUDIO=y
 #    snippets: 
 #      - studio-rpc-usb-uart
 #      - zmk-usb-logging
@@ -12,8 +12,8 @@ include:
 
   - board: xiao_ble
     shield: my_kb_dongle
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 #    snippets: 
 #      - studio-rpc-usb-uart
 #      - zmk-usb-logging
