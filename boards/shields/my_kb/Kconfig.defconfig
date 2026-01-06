@@ -7,7 +7,7 @@ if SHIELD_MY_KB_MAIN || SHIELD_MY_KB_NPAD || SHIELD_MY_KB_DONGLE
    
 endif
 
-if SHIELD_MY_KB_MAIN
+if SHIELD_MY_KB_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
