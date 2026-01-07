@@ -11,7 +11,7 @@ include:
     shield: my_kb_npad
 
   - board: xiao_ble
-    shield: my_kb_dongle
+    shield: my_kb_dongle dongle_display
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #    snippets: 
