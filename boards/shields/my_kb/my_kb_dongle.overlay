@@ -1,20 +1,22 @@
 #include "my_kb.dtsi"
 
-&chosen {
-    zephyr,display = &oled;
-}
+/ {
+    &chosen {
+        zephyr,display = &oled;
+    }
 
-&kscan0 {
-    
-    col-gpios =
-        <&gpio0 2 GPIO_ACTIVE_HIGH>;
+    &kscan0 {
+        
+        col-gpios =
+            <&gpio0 2 GPIO_ACTIVE_HIGH>;
 
-    row-gpios =
-        <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-};
+        row-gpios =
+            <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+    };
 
-&default_transform {
-    row-offset = <18>;
+    &default_transform {
+        row-offset = <18>;
+    };
 };
 
 &xiao_i2c {
