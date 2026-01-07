@@ -19,6 +19,8 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 2
 
+if ZMK_DISPLAY
+
 config I2C
     default y
 
@@ -28,6 +30,8 @@ config SSD1306
 choice ZMK_DISPLAY_WORK_QUEUE
     default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
 endchoice
+
+if LVGL
 
 config LV_Z_VDB_SIZE
     default 64
@@ -42,5 +46,8 @@ choice LV_COLOR_DEPTH
     default LV_COLOR_DEPTH_1
 endchoice
 
+endif # LVGL
+
+endif # ZMK_DISPLAY
 
 endif
