@@ -29,9 +29,6 @@ choice ZMK_DISPLAY_WORK_QUEUE
     default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
 endchoice
 
-
-if LVGL
-
 config LV_Z_VDB_SIZE
     default 64
 
